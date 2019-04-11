@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*
+ * Vidu dau tien
+ * url run: http://localhost/laravel-learning/dang-nhap
+ */
+Route::get('/dang-nhap', function(){
+    echo 'Day trang dang nhap';
+});
