@@ -48,3 +48,9 @@ Route::get('/home','HomeController@index');
  */
 Route::get('/hello-user/{user}','helloController@index');
 
+/*
+|--------------------------------------------------------------------------
+| 4) User Controller
+|--------------------------------------------------------------------------
+*/
+//Route::get('');
